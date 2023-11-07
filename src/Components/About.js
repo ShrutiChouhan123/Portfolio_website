@@ -24,9 +24,9 @@ function About() {
               <div class="col-lg-6">
                 <ul>
                   <li><i class="bi bi-rounded-right"></i> <strong>Birthday:</strong> 26 oct 2001</li>
-                  <li><i class="bi bi-rounded-right"></i> <strong>Website:</strong> www.example.com</li>
+                  <li><i class="bi bi-rounded-right"></i> <strong>Website:</strong> <a href='https://github.com/ShrutiChouhan123/' style={{color:"blue"}}>Github.com</a></li>
                   <li><i class="bi bi-rounded-right"></i> <strong>Phone:</strong> +917987162371</li>
-                  <li><i class="bi bi-rounded-right"></i> <strong>City:</strong> City : Ujjain</li>
+                  <li><i class="bi bi-rounded-right"></i> <strong>City:</strong>  Ujjain</li>
                 </ul>
               </div>
               <div class="col-lg-6">

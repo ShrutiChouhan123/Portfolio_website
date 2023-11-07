@@ -11,7 +11,7 @@ function Resume() {
           </div>
           <div class="row" style={{marginLeft:"1rem"}}>
             <div class="col-lg-6">
-              <h3 class="resume-title">Sumary</h3>
+              <h3 class="resume-title">Summary</h3>
               <div class="resume-item pb-0">
                 <h4>Shruti Chouhan</h4>
                 <p><em>I am Trainee Software Engineer at Bestpeers Infosystem Indore.I have done my B.tech from Mahakal Institute of Technology and Management Ujjain.
@@ -30,20 +30,20 @@ function Resume() {
                 <h4>B.tech in CS &amp; Python Developer
                 </h4>
                 <h5>2019-2023</h5>
-                <p><em>Mahakal Institute of Technology & Management Ujjain</em></p>
+                <p><em>Mahakal Institute of Technology & Management, Ujjain</em></p>
               </div>
 
               <div class="resume-item">
                 <h4>12th Class.
                 </h4>
                 <h5>2019</h5>
-                <p><em>Govt Girls Higher Secondary School Ujjain</em></p>
+                <p><em>Govt Girls Higher Secondary School, Ujjain</em></p>
               </div>
 
               <div class="resume-item">
                 <h4>10th Class</h4>
                 <h5>2017</h5>
-                <p><em>Gandhi High School Ujjain</em></p>
+                <p><em>Gandhi High School, Ujjain</em></p>
               </div>
            
             </div>

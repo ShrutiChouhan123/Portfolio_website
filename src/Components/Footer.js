@@ -5,13 +5,14 @@ function Footer() {
    <>
    <footer id="footer">
     <div class="container">
+    
       <div class="copyright">
-       <strong><span>shchouhan@bestpeers.in</span></strong>
+        &copy; Copyright <strong><span>MyPortfolio</span></strong>. All Rights Reserved
+      
        <br/>
        <div class="credits">
-        Designed by Shruti Chouhan
+        <b>Designed by :</b> Shruti Chouhan
       </div>
-        <span>All Rights Reserved</span>
       </div>
       
     </div>
