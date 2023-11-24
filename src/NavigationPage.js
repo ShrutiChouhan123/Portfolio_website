@@ -15,6 +15,8 @@ function NavigationPage() {
                             <li><Link to="/resume">Resume</Link></li>
                             <li><Link to="/services">Services</Link></li>
                             <li><Link to="/contact">Contact</Link></li>
+                            <li><Link to="/register">Register</Link></li>
+
                     
                         </ul>
                         <i class="bi bi-list mobile-nav-toggle"></i>
