@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import '../index.css'
 import axios from 'axios'
+import { useNavigate } from 'react-router-dom'
 function Register() {
     const [username,setusername] = useState("")
     const [first_name,setfirst_name] = useState("")
@@ -9,6 +10,7 @@ function Register() {
     const [password,setpassword] = useState("")
     const [data,setdata] = useState([])
     let baseUrl='http://127.0.0.1:8000/users/'
+   const navigate= useNavigate()
 
   let register = () =>{
     let item = {username,first_name,last_name,email,password}
@@ -18,8 +20,25 @@ function Register() {
         last_name:last_name,
         email:email,
         password:password
-    }).then((res)=>setdata(res.data))
+    
+    }
+    ).then((res)=>
+    // setdata(res.data)
+    navigate('/')
+
+    // alert('succesfully register')
+
+    )
     console.log(data)
+
+
+    if(data==''){
+        // navigate('/')
+        // alert('plz register')
+    }
+    else{
+        alert('succesfully registerted')
+  }
   }
 
     
@@ -33,7 +52,7 @@ function Register() {
         </div>
       
           <div class="col-lg-8 mt-5 mt-lg-0">
-            <form method="post" role="form" class="php-email-form" >
+            <form method='post'  class="php-email-form" >
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="username" value={username} class="form-control" id="name" placeholder="Your User Name"  onChange={(e)=>setusername(e.target.value)} required/>
