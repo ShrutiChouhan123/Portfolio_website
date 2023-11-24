@@ -63,7 +63,7 @@ function Contact() {
             <br />
             <div class="col-lg-8 mt-5 mt-lg-0">
 
-              <form action="forms/contact.php" method="post" role="form" class="php-email-form" >
+              <form action="http://127.0.0.1:8000/contact/" method="post" role="form" class="php-email-form" >
                 <div class="row">
                   <div class="col-md-6 form-group">
                     <input type="text" name="name" value={name} class="form-control" id="name" placeholder="Your Name" onChange={(e)=>setname(e.target.value)} required />
