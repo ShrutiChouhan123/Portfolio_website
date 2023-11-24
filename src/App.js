@@ -7,7 +7,6 @@ import Resume from './Components/Resume';
 import Services from './Components/Services';
 import Footer from './Components/Footer';
 import Contact from './Components/Contact';
-import Register from './Components/Register';
 function App() {
   return (
   <>
@@ -18,7 +17,6 @@ function App() {
     <Route exact path='resume' element={<Resume/>}></Route>
     <Route exact path='services' element={<Services/>}></Route>
     <Route exact path='contact' element={<Contact/>}></Route>
-    <Route exact path='register' element={<Register/>}></Route>
   </Routes>
   <Footer/>
   </>
